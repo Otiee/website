@@ -1,0 +1,42 @@
+#book {
+    width: 510px; /* Đặt chiều rộng cho container */
+    /* align-items: center; */
+    margin: 15px auto;
+    height:1000px;
+}
+
+#content-book{
+    margin: 70px 0px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+
+
+.input-book input {
+    display: block; /* Hiển thị từng input trên một dòng */
+    width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+    margin-bottom: 10px; /* Tạo khoảng cách giữa các input */
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: .97em;
+    background-color: #fff;
+    color: #333;
+    
+}
+
+.note {
+    top:0;
+    min-height: 124px;
+}
+  
+
+.btn-book {
+    width: 100%; /* Chiếm toàn bộ chiều rộng của container */
+    cursor: pointer;
+    padding: 12px;
+    
+}
