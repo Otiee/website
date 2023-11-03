@@ -1,0 +1,12 @@
+CREATE TABLE Table_FormDichVu(
+    ID INT AUTO_INCREMENT,
+    MaDichVu VARCHAR(2),
+    FOREIGN KEY (MaDichVu) REFERENCES Table_DichVu(MaDichVu),
+    Email VARCHAR(100),
+    HoTen VARCHAR(100),
+    Phone INT(12),
+    TrangThai BIT DEFAULT 0,
+    PRIMARY KEY (ID)
+);
+Insert into Table_FormDichvu( ID, MaDichVu, FOREIGN KEY, Email, HoTen, Phone, TrangThai ) value
+( 
