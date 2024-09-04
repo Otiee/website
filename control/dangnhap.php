@@ -39,7 +39,7 @@
                         </a>
                         <a href="" class="btn btn--with-icon">
                             <i class="fa-brands fa-google"></i>
-                                Kết nối với Google
+                                Kết nối với Google 
                         </a>
 
                     </div>
